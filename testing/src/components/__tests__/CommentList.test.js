@@ -6,7 +6,7 @@ import Root from 'Root';
 let wrapped;
 
 beforeEach(() => {    
-    const initialState = { comments: ['new comment 1', 'new comment 2']};
+    const initialState = { comments: ['Comment1', 'Comment2']};
     wrapped = mount(
     <Root initialState={initialState}>
         <CommentList />

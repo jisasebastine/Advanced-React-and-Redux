@@ -18,9 +18,10 @@ afterEach(() => {
     wrapped.unmount();
 });
 
-it(' has a text area', () => {
+it(' has a text area and 2 buttons', () => {
 
     expect(wrapped.find('textarea')).toHaveLength(1);
+    expect(wrapped.find('button')).toHaveLength(2);
 });
 
 describe('text area', () => {

@@ -23,6 +23,7 @@ class CommentBox extends Component {
 
     render() {
         return(
+            <div>
             <form onSubmit={this.handleSubmit}>
                 <h1>Add a Comment </h1>
                 <textarea onChange={this.handleChange} value={this.state.comment} autoFocus/>
@@ -30,6 +31,13 @@ class CommentBox extends Component {
                     <button> Submit Comment</button>
                 </div>
             </form>
+            <button className='fetch-comments' onClick={this.props.fetchComments}>Fetch Comments</button>
+            {/* 
+                Calling a method with paranthesis means to execute the function and return its value.
+                Calling a method without parenthesis means to fetch the function to be passed along as a callback.
+            */}
+            
+            </div>
         );
     }
 }
