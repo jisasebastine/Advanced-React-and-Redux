@@ -1,4 +1,2 @@
 # Authentication Server
-We will be creating an authentication server completely from scratch.
-Start by adding following node packages
-# yarn add express mongoose morgan body-parse
+Objective is to create an authentication server in NodeJS completely from scratch.
