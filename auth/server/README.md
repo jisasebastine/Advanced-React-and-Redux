@@ -16,4 +16,6 @@ Monitoring: __nodemon__
 ###Authentication
 
 Password encryption is handled by __bcrypt-nodejs__ module.
+JWT token is used to handle authorised resource request.
+JWT Strategy and Local Strategy are implemented using passportJS.
 
