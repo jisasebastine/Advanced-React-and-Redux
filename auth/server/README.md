@@ -1,7 +1,7 @@
 # Authentication Server
 Objective is to create an authentication server in NodeJS completely from scratch.
 
->> npm install --save express mongoose body-parser morgan bcrypt-nodejs nodemon
+>> npm install --save express mongoose body-parser morgan bcrypt-nodejs nodemon passport passport-jwt passport-local
 
 ##NPM packages
 
