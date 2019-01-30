@@ -1,5 +1,6 @@
 # Advanced-React-and-Redux
 This is to showcase the projects and tests that I have created as part of a Udemy course.
+https://udemy-certificate.s3.amazonaws.com/pdf/UC-CD50U5GK.pdf
 
 # Authentication Server
 Objective is to create an authentication server in NodeJS completely from scratch.
